@@ -1,0 +1,62 @@
+^no flag
+difidsgjijgiodfgzlgosdg
+24
+difidsgjijgiodfgzlgosdg23
+^flag d & i
+0 0; 
+6
+-1 -1; 
+8
+2147483647 2147483647; 
+24
+-2147483648 -2147483648; 
+26
+4444; 
+7
+^flag c
+c c
+4
+cccc
+5
+^flag u
+0
+2
+11
+3
+21474836472147483647
+21
+4294967295 4294967295
+22
+44 4444 44
+11
+^flag x & X
+0 0
+4
+1 1
+4
+2a 2A
+6
+ffffffff FFFFFFFF
+18
+^flag p
+
+% 0xffffffff0xffffffff 
+24
+% 0x00x0 
+10
+^flag s
+a (null)
+9
+burpis 
+8
+^flag %
+% %% %%
+8
+^mix test
+f%3344abc%7bDE0xffffffff23
+27
+^wrong flag 
+w w
+4
+^no output
+ù
