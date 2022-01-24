@@ -43,7 +43,7 @@ void flag_d(int is_mandatory)
         ft_printf("%d\n", a);
 
         d = -1;
-        a = ft_printf("*1*%#.d, %.0d, %.1i, %04d, \n%-04d, %04.2d, %04.d, %04.0d, \n%-0-04.0d, %#-0-04.1d % +-0- +04.1d % -0- 04.1d \n% 0 04.1d % 0#04.1i % +#4.1d %5d\n", d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d);
+        a = ft_printf("*1*%#.d, %.0d, %.1i, %04d, \n%-04d, %04.2d, %04.d, %04.0d, \n%-0-04.0d, %#-0-04.1d % +-0- +04.1d % -0- 04.1d \n% 0 04.1d % 0#04.1i % +#4.1d %5.4.5+d\n", d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d);
         ft_printf("%d\n", a);
 
         d = 2147483647;
